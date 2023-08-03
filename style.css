@@ -1,0 +1,58 @@
+
+  .fragment.red-grow.visible {
+    color: red;
+    transform: scale(1.3);
+    transition: 1s;
+  }
+.fragment.red-grow-icon {
+    margin-top: 0;
+  }
+  .fragment.red-grow-icon.visible {
+    color: red;
+    font-size: 4rem;
+    transition: 1s;
+  }
+
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  .fragment.animated-bounce {
+    filter: blur(10px);
+  }
+  .fragment.animated-bounce.visible {
+    filter: blur(0px);
+    animation: bounce 1s ease;
+  }
+  .fragment.fade-in-right {
+    opacity: 0;
+  }
+  .fragment.fade-in-right.visible {
+    opacity: 1;
+    animation: fadeInRight 1s forwards; /* 'forwards' keeps the final state after the animation ends */
+  }
+
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px); /* Move the element 50px to the right initially */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* Move the element back to its original position */
+    }
+  }
+  
+  
+  
+  
+  
+  
