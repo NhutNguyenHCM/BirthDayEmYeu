@@ -13,10 +13,6 @@ section img {
   border-radius: 3rem;
 }
 
-video {
-  border-radius: 2rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
 
 .fragment.red-grow.visible {
   color: red;
@@ -98,3 +94,41 @@ video {
     ); /* Move the element back to its original position */
   }
 }
+
+
+
+
+
+  .reveal {
+    /* Add your custom styles for the slideshow container here */
+  }
+
+  .slides {
+    /* Add your custom styles for the slides container here */
+  }
+
+  .slide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+
+  .video-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+  }
+
+  .text-container {
+    flex: 1;
+    max-width: 50%;
+    padding: 10px;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
