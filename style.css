@@ -12,8 +12,6 @@ section img {
   max-width: 40% !important;
   border-radius: 3rem;
 }
-
-
 .fragment.red-grow.visible {
   color: red;
   transform: scale(1.3);
@@ -95,40 +93,27 @@ section img {
   }
 }
 
+.slide-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
 
+.video-container {
+  flex: 1;
+  max-width: 50%;
+  padding: 10px;
+}
 
+.text-container {
+  flex: 1;
+  max-width: 50%;
+  padding: 10px;
+}
 
-
-  .reveal {
-    /* Add your custom styles for the slideshow container here */
-  }
-
-  .slides {
-    /* Add your custom styles for the slides container here */
-  }
-
-  .slide-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-  }
-
-  .video-container {
-    flex: 1;
-    max-width: 50%;
-    padding: 10px;
-  }
-
-  .text-container {
-    flex: 1;
-    max-width: 50%;
-    padding: 10px;
-  }
-
-  video {
-    max-width: 100%;
-    height: auto;
-  }
-
+video {
+  max-width: 100%;
+  height: auto;
+}
